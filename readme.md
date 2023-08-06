@@ -8,10 +8,13 @@
 - Scenarios (Use-cases)
 ![4+1_architecture_overview.png](4+1_architecture_overview.png)
 
-## Logical View
-- Class and associations typically Unified Modeling Language (UML)
-- Entity-Relationship Diagrams (ERD)
-- Ideally, starting with Domain-Driven Design (DDD)
+## Scenarios
+- The why
+- Abstraction of the most important requirements
+- Can be expressed with:
+  - Use-case diagrams
+  - Scenario / Interaction diagrams
+  - Activity diagrams
 
 ## Process View
 - Typically, software runs in one-or-more process (e.g. JVMs)
@@ -27,22 +30,19 @@
   - Microservices
   - Event Driven
 
-## Development View
-- Sub-system decomposition into layers
-- Layers of libraries and other sub-systems
-
 ## Physical View
 - Mapping of the software to hardware
 - Addresses non-functional requirements such as availability, reliability (fault-tolerance), performance (throughput), and scalability
 - Support for different environments: dev, beta, prod, DR
 
-## Scenarios
-- The why
-- Abstraction of the most important requirements
-- Can be expressed with:
-  - Use-case diagrams
-  - Scenario / Interaction diagrams
-  - Activity diagrams
+## Logical View
+- Class and associations typically Unified Modeling Language (UML)
+- Entity-Relationship Diagrams (ERD)
+- Ideally, starting with Domain-Driven Design (DDD)
+
+## Development View
+- Sub-system decomposition into layers
+- Layers of libraries and other sub-systems
 
 ## Notes
 - Not all views and needed for all architectures
