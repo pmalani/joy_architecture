@@ -6,6 +6,7 @@
 - Physical View (The actual deployment)
 - Development View (Components and artifacts)
 - Scenarios (Use-cases)
+
 ![4+1_architecture_overview.png](4+1_architecture_overview.png)
 
 ## Scenarios
